@@ -4,6 +4,11 @@
 
 
 /* #PAGE STYLES */
+
+.backo {
+	background: url('../images/black_thread.png') fixed;
+}
+
 hr {
     border-width: 1px medium medium;
     border-style: solid none none;
@@ -704,7 +709,11 @@ ul.slimmenu.collapsed li > ul {
 
 .background-grid {
 	position:absolute;
-	background: url('../images/hero_top.jpg');
+	background: url('../images/hero_top.jpg') no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	width:100%;
 	height:100%;
 	top:0;
@@ -1513,7 +1522,7 @@ left: 0;
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color:#333333;
+	color:#F7F7F7;
 	text-align:center;
 	font-size:14px;
 	text-decoration: none;
@@ -1620,7 +1629,7 @@ left: 0;
 	display:block;
 	width:100%;
 	overflow:hidden;
-	background:#ededed;
+	/*background:#ededed;*/
 	padding-top:50px;
 	padding-bottom:50px;
 }
