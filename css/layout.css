@@ -1437,10 +1437,44 @@ left: 0;
 	opacity: 1;
 }
 
+
+
 #folio .cl-effect-14 a {
 	padding: 0 20px;
 	height: 35px;
 	line-height: 35px;
+}
+
+
+
+/* #gallery
+================================================== */
+
+
+#gallery{
+        overflow-y:auto;
+        width: 100%;
+}
+#gallery h1{
+        padding-top:100px;
+}
+
+#gallery .cl-effect-14 a::before,
+#gallery .cl-effect-14 a::after {
+        background: #000;
+        opacity:0;
+}
+#gallery .cl-effect-14 a:hover::before,
+#gallery .cl-effect-14 a:hover::after,
+#gallery .cl-effect-14 a:focus::before,
+#gallery .cl-effect-14 a:focus::after {
+        opacity: 1;
+}
+
+#gallery .cl-effect-14 a {
+        padding: 0 20px;
+        height: 35px;
+        line-height: 35px;
 }
 
 .all-works{

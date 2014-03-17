@@ -122,6 +122,7 @@ $('ul.slimmenu').slimmenu(
 						"background" : "",
 						"index" : 3
 					},
+
 					"contact" : {
 						"background" : "",
 						"index" : 4
@@ -129,8 +130,11 @@ $('ul.slimmenu').slimmenu(
 					"blog" : {
 						"background" : "",
 						"index" : 5
-					}
-					
+					},
+                                        "gallery" : {
+                                                "background" : "",
+                                                "index" : 6
+                                        }
 			};
 			
 			function goTo(id){
